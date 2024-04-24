@@ -14,7 +14,12 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Вы вошли в систему!') }}
+
+                    <div>
+                    <a  href="{{ route('user.profile') }}" class="btn btn-primary mt-4">Посмотреть мой профиль</a>
+                    </div>
+
                 </div>
             </div>
         </div>
